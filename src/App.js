@@ -1,4 +1,5 @@
 import React from 'react'
+import Intro from './components/Intro'
 import Navbar from './components/Navbar'
 import About from './components/About'
 import Now from './components/Now'
@@ -10,6 +11,7 @@ export default function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
       <Navbar />
+      <Intro />
       <About />
       <Now />
       <Projects />
