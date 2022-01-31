@@ -1,8 +1,11 @@
 import React from 'react'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faCheckSquare, faCoffee, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
 import Intro from './components/Intro'
 import Navbar from './components/Navbar'
 import About from './components/About'
-import Now from './components/Now'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import './App.css';
@@ -13,10 +16,10 @@ export default function App() {
       <Navbar />
       <Intro />
       <About />
-      <Now />
       <Projects />
       <Contact />
     </main>
   );
 }
 
+library.add(fab, faCheckSquare, faCoffee, faEnvelope)
