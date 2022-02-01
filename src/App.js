@@ -1,7 +1,7 @@
 import React from 'react'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faCheckSquare, faCoffee, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faCheckSquare } from '@fortawesome/free-solid-svg-icons'
 
 import Intro from './components/Intro'
 import Navbar from './components/Navbar'
@@ -22,4 +22,4 @@ export default function App() {
   );
 }
 
-library.add(fab, faCheckSquare, faCoffee, faEnvelope)
+library.add(fab, faCheckSquare)
