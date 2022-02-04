@@ -40,6 +40,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
 h1 {
   color: salmon;
+}
+
+section {
+  background-color: white;
 }
