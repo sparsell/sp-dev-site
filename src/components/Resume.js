@@ -4,25 +4,13 @@ import SonjaParsellResume from '../assets/SonjaParsellResume.pdf'
 
 const Resume = () => {
 
-//     showResume = () => {
-//         <Document file={SonjaParsellResume}>
-//             <Page pageNumber={1} />
-//         </Document>
-// }
-
-    // downloadResume = () => {
-    //     return(
-    //     )
-    // }
-
 
 
     return(
         <div>
-            {/* <button onClick={showResume()}>View</button> */}
-             {/* <button onClick={downloadResume()}>Download</button> */}
-            <button className="text-black bg-indigo-300 border-0 py-2 px-4 outline outline-2 hover:bg-indigo-600 rounded text-sm">View</button>
-            <button className="text-white font-bold bg-red-400 hover:bg-red-400 py-2 px-4 rounded">Download</button>
+            <button className="text-black bg-indigo-300 border-0 py-2 px-7 mr-2 mt-4 outline outline-2  outline-offset-2 hover:bg-red-400 rounded text-sm">View</button>
+
+            <button className="text-black bg-indigo-300 border-0 py-2 px-2 ml- 2 outline outline-2  outline-offset-2 hover:bg-red-400 rounded text-sm">Download</button>
         </div>
     )
 }
