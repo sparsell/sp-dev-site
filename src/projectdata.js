@@ -1,21 +1,21 @@
 export const projects = [
     {   
         title: "ClassTech",
-        description: "Loreum ipsum", 
+        description: "Who in your class has a phone?", 
         image: "./project-1.gif",
         link: "coming soon",
         github: "https://github.com/sparsell/classtech-frontend"
     },
     {   
         title: "SpendLess",
-        description: "Loreum ipsum", 
+        description: "This is not another budgeting app...", 
         image: "./project-2.gif",
         link: "coming soon",
         github: "https://github.com/sparsell/classtech-frontend"
     },
     {   
-        title: "Unpaid Work",
-        description: "Loreum ipsum", 
+        title: "Quilt-a-Long",
+        description: "Hobbies are important too.", 
         image: "./project-3.gif",
         link: "coming soon",
         github: "https://github.com/sparsell/classtech-frontend"
