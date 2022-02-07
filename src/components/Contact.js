@@ -10,26 +10,26 @@ const Contact = () => {
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-RED-50">C O N T A C T</h1>
                     
                     <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                        <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+                        <h2 className="title-font font-semibold text-blue-800 bg-red-100 bg-contain tracking-widest text-xs mt-4">
                          EMAIL</h2>
                             <p className="text-indigo-800 leading-relaxed">
                                 <a href="mailto:hello@sparsell.com">
                             hello@sparsell.com</a></p>
-                        <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+                        <h2 className="title-font font-semibold text-blue-800 bg-red-100 bg-contain tracking-widest text-xs mt-4">
                          PHONE</h2>
                             <p className="text-indigo-800 leading-relaxed">
                             (203) 321-9889</p>
 
-                        <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+                        <h2 className="title-font font-semibold text-blue-800 tracking-widest text-xs mt-4">
                          SOCIAL</h2>
-                            <p className="text-indigo-800 leading-relaxed"><a href="https://www.linkedin.com/in/sonja-parsell/" target="_blank">
+                            <p className="text-blue-700 leading-relaxed"><a href="https://www.linkedin.com/in/sonja-parsell/" target="_blank">
                                 LinkedIn</a></p>
                             <p className="text-indigo-800 leading-relaxed"><a href="https://twitter.com/s_parsell" target="_blank">
                                 Twitter</a></p>
                             <p className="text-indigo-800 leading-relaxed"><a href="https://github.com/sparsell" target="_blank">
                                 GitHub</a></p>
 
-                         <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+                         <h2 className="title-font font-semibold text-blue-800 bg-red-100 bg-contain tracking-widest text-xs mt-4">
                          CV</h2> 
                          <Resume />         
                         
