@@ -19,5 +19,13 @@ export const projects = [
         image: "./project-3.gif",
         link: "coming soon",
         github: "https://github.com/sparsell/classtech-frontend"
+    },
+
+    {   
+        title: "SpendLess",
+        description: "My first blockchain.", 
+        image: "./project-3.gif",
+        link: "coming soon",
+        github: "https://github.com/sparsell/classtech-frontend"
     }
 ]
