@@ -25,8 +25,8 @@ const Projects = () => {
                     <p className="text-blue-800 font-semibold tracking-widest underline underline-offset-4">{project.title}</p>
                     <p className="text-blue-800">{project.description}</p>
                     <p className="text-blue-800">{project.image}</p>
-                    <p className="text-blue-800">{project.link}</p>               
-                    <p className="text-blue-800 visited:text-purple-600"><a target="_blank" alt="Github repo link" href="{project.github}">GITHUB repo</a></p>         
+                    <p className="text-blue-800 visited:text-red-400"><a target="_blank" alt="link to project website" href="{project.link}">See it live</a></p>          
+                    <p className="text-blue-800 visited:text-red-400"><a target="_blank" alt="Github repo link" href="{project.github}">GITHUB repo</a></p>         
                   </span>
                 </div>
               </div>
