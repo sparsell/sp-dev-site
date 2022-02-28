@@ -9,24 +9,24 @@ const Contact = () => {
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-RED-50">C O N T A C T</h1>
                     
                     <div className="lg:w-1/2 px-6 lg:mt-0">
-                        <h2 className="title-font font-semibold text-blue-800 tracking-widest text-xs mt-4">
+                        <h2 className="title-font font-semibold text-blue-800 tracking-widest text-md mt-4">
                          EMAIL</h2>
                             <p className="text-blue-800 leading-relaxed">
                                 <a href="mailto:hello@sparsell.com">
                             hello@sparsell.com</a></p>
 
-                        <h2 className="title-font font-semibold text-blue-800 tracking-widest text-xs mt-4">
+                        <h2 className="title-font font-semibold text-blue-800 tracking-widest text-md mt-4">
                             SOCIAL </h2>
-                            <p className="text-blue-700 leading-relaxed"><a href="https://www.linkedin.com/in/sonja-parsell/" target="_blank">
+                            <p className="text-blue-800 leading-relaxed"><a href="https://www.linkedin.com/in/sonja-parsell/" target="_blank" rel="noreferrer">
                                 LinkedIn</a></p>
-                            <p className="text-blue-800 leading-relaxed"><a href="https://twitter.com/s_parsell" target="_blank">
+                            <p className="text-blue-800 leading-relaxed"><a href="https://twitter.com/s_parsell" target="_blank" rel="noreferrer">
                                 Twitter</a></p>
-                            <p className="text-blue-800 leading-relaxed"><a href="https://github.com/sparsell" target="_blank">
+                            <p className="text-blue-800 leading-relaxed"><a href="https://github.com/sparsell" target="_blank" rel="noreferrer">
                                 GitHub</a></p>
 
-                        <h2 className="title-font font-semibold text-blue-800 tracking-widest text-xs mt-4">
+                        <h2 className="title-font font-semibold text-blue-800 tracking-widest text-md mt-4">
                             CV </h2> 
-                         <a className="text-red-400 text-xs " href={SonjaParsellResume} target="_blank">
+                         <a className="text-red-400 text-xs " href={SonjaParsellResume} target="_blank" rel="noreferrer">
                                 <button label="Resume">
                                     Download 
                                 </button></a>        
