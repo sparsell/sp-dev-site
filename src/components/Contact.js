@@ -11,21 +11,17 @@ const Contact = () => {
                     <div className="lg:w-1/2 px-6 lg:mt-0">
                         <h2 className="title-font font-semibold text-blue-800 tracking-widest text-xs mt-4">
                          EMAIL</h2>
-                            <p className="text-indigo-800 leading-relaxed">
+                            <p className="text-blue-800 leading-relaxed">
                                 <a href="mailto:hello@sparsell.com">
                             hello@sparsell.com</a></p>
-                        <h2 className="title-font font-semibold text-blue-800 tracking-widest text-xs mt-4">
-                         PHONE</h2>
-                            <p className="text-blue-800 leading-relaxed">
-                            (203) 321-9889</p>
 
                         <h2 className="title-font font-semibold text-blue-800 tracking-widest text-xs mt-4">
                             SOCIAL </h2>
                             <p className="text-blue-700 leading-relaxed"><a href="https://www.linkedin.com/in/sonja-parsell/" target="_blank">
                                 LinkedIn</a></p>
-                            <p className="text-indigo-800 leading-relaxed"><a href="https://twitter.com/s_parsell" target="_blank">
+                            <p className="text-blue-800 leading-relaxed"><a href="https://twitter.com/s_parsell" target="_blank">
                                 Twitter</a></p>
-                            <p className="text-indigo-800 leading-relaxed"><a href="https://github.com/sparsell" target="_blank">
+                            <p className="text-blue-800 leading-relaxed"><a href="https://github.com/sparsell" target="_blank">
                                 GitHub</a></p>
 
                         <h2 className="title-font font-semibold text-blue-800 tracking-widest text-xs mt-4">

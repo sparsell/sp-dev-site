@@ -16,7 +16,7 @@ const About = () => {
                         <p className="text-blue-800">After 15+ years at various Wall Street banks, I handed inmy spreadsheets for the chance to stay at home with my two children. In my last role,I'd made a jump from Finance to Technology and after a very short time, I felt like I'dbeen missing out on my true calling - just as I was about to leave on what turned out tobe a ten year career break.</p>
                             
                     <h1>AND AFTER...</h1>
-                        <p className="text-blue-800">Now I'm passionate about blockchain technology and findingways to add value by combining my financial services expertise with my newly mintedsoftware engineering skills. </p>
+                        <p className="text-blue-800">Now I'm passionate about blockchain technology and finding ways to add value by combining my financial services expertise with my newly minted software engineering skills. </p>
                 </div>
             </div>
         </section>
