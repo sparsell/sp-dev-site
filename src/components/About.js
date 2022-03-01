@@ -12,10 +12,10 @@ const About = () => {
                             className="object-cover object-center rounded max-w-sm"
                             alt="Sonja Parsell"
                             src="../headshot.jpg"/>
-                    <h1 className="mb-4 mb-16">ME BEFORE CODE...</h1>
+                    <h1 className="font-semibold text-lg tracking-widest mt-7">ME BEFORE CODE...</h1>
                         <p className="text-blue-800">After 15+ years at various Wall Street banks, I handed inmy spreadsheets for the chance to stay at home with my two children. In my last role,I'd made a strategic move from Finance to Technology and after a very short time, I felt like I'd been missing out on my true calling.</p>
                             
-                    <h1>AND AFTER...</h1>
+                    <h1 className="font-semibold text-lg tracking-widest mt-7">AND AFTER...</h1>
                         <p className="text-blue-800">Now I'm passionate about blockchain technology and finding ways to add value by combining my financial services expertise with my newly minted software engineering skills. </p>
                 </div>
             </div>
