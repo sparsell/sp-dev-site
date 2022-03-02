@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
     return (
       <section id="navbar">
-        <nav class="p-2 mt-0 fixed w-full z-10 top-0">
+        <nav class="p-2 mt-0 fixed w-full z-10 top-0 bg-white">
           <div class="container mx-auto flex flex-wrap items-center">
             <div class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold">
                 {/* <a class="text-white no-underline hover:text-white hover:no-underline" href="#">
