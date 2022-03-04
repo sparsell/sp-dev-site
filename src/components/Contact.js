@@ -27,7 +27,7 @@ const Contact = () => {
                         <h2 className="title-font font-semibold text-blue-800 tracking-widest text-md mt-4">
                             CV </h2> 
                          <a className="text-red-400 text-xs " href={SonjaParsellResume} target="_blank" rel="noreferrer">
-                                <button label="Resume">
+                                <button class="rounded p-1 bg-red-500 text-white" label="Resume">
                                     Download 
                                 </button></a>        
                     </div>
