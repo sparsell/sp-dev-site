@@ -1,7 +1,9 @@
 export const projects = [
     {   
         title: "ClassTech",
-        description: "Who really has a phone?", 
+        tagline: "Who really has a phone?", 
+        description: "",
+        tech: "",
         image: "./project-1.gif",
         link: "https://www.myclassroomtech.com",
         github: "https://www.github.com/sparsell/classtech-frontend", 
@@ -9,7 +11,9 @@ export const projects = [
     },
     {   
         title: "SpendLess",
-        description: "Not your typical budgeting app.", 
+        tagline: "Not your typical budgeting app.", 
+        description: "",
+        tech: "",
         image: "./project-2.gif",
         link: "https://www.spendless.today",
         github: "https://github.com/sparsell/spendless-frontend"
