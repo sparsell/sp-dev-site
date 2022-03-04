@@ -9,7 +9,7 @@ const About = () => {
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-red-50">A B O U T</h1>
                         <img
-                            className="object-cover object-center rounded max-w-sm"
+                            className="object-center min w-sm h-sm"
                             alt="Sonja Parsell"
                             src="../headshot.jpg"/>
                     <h1 className="font-semibold text-lg tracking-widest mt-7">ME BEFORE CODE...</h1>
