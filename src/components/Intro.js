@@ -9,16 +9,17 @@ const Intro = () => {
                     <h1 className="title-font sm:text-6xl text-5xl mb-4 font-medium text-red-50"><span>SONJA</span> PARSELL</h1>
 
                     <div>
-                        <h3 className="title-font sm:text-3xl text-3xl mb-1 mt-5 font-small text-blue-800 underline underline-offset-4">
+                        <h3 className="title-font sm:text-3xl text-3xl mb-1 mt-5 font-small c underline underline-offset-4 text-blue-800">
                             fullstack software engineer</h3>
+                            <h2 className="title-font font-semibold text-red-500 tracking-widest text-md mt-4">JavaScript | React | Redux | Ruby | Rails</h2>
 
-                            <p className="text-blue-800">I'm a Flatiron School graduate of software engineering with experience in building full stack applications in modern programming lanuages and frameworks. I continually look for ways to sharpen my skills and add new ones. </p>
+                            <p className="text-blue-800">I'm a Flatiron School graduate of software engineering with experience building full stack applications in modern programming lanuages and frameworks including . I continually look for ways to sharpen my skills and add new ones. I'm currently playing around with Daml and Solidity. </p>
                     </div>    
 
                     <div>
                         <h3 className="title-font sm:text-3xl text-3xl mb-1 mt-5 font-small text-blue-800 underline underline-offset-4"> 
                         bent on blockchain </h3>
-                            <p className="text-blue-800">I'm captivated at what blockchain technology could do for areas of our lives that can surely stand for more equity and transparency.  I'm betting on blockchain and would love to be a part of making techonolgy that works for everyone. </p>
+                            <p className="text-blue-800">I'm captivated at what blockchain technology could do for areas of our lives that can surely stand for more equity and transparency.  I want to be a part of designing and building techonolgy that works for everyone. </p>
 
                         <h3 className="title-font sm:text-3xl text-3xl mb-1 mt-5 font-small text-blue-800 underline underline-offset-4"> 
                         career changer </h3>
@@ -27,7 +28,7 @@ const Intro = () => {
                         <h3 className="title-font sm:text-3xl text-3xl mb-1 mt-5 font-small text-blue-800 underline underline-offset-4"> 
                         human </h3>
                         
-                            <p className="text-blue-800">Happily married, mom to two kids, two dogs and two cats. I'm a volunteer Salesforce administrator for the Leukimia and Lymphoma Society and in any spare time will rescue just about any piece of fabric that can be made into a <a class="text-blue-600 visited:text-purple-600" target="_blank" href="https://www.charliepops.com" class="text-teal-700 visited:text-purple-600 ..." >patchwork quilt.</a></p>
+                            <p className="text-blue-800">Happily married, mom to two kids, two dogs and two cats. I'm a volunteer Salesforce administrator for the Leukimia and Lymphoma Society and in any spare time will rescue any piece of fabric that can be made into a <a class="text-blue-600 visited:text-purple-600" target="_blank" href="https://www.charliepops.com" class="text-red-500 visited:text-red-500 ..." >patchwork quilt.</a></p>
                     </div>
                 </div>
             </div>
