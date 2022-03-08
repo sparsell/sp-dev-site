@@ -2,8 +2,10 @@ import React from 'react'
 
 const Footer = () => {
     return(
-        <section class="h-50 bg-white min-h-full">
-            <h2>copyright 2022</h2>
+        <section className="bg-white">
+            <div className="container mx-auto flex flex-col items-center">
+                <h2>&copy;2022 Sonja Parsell</h2>
+            </div>
         </section>
     )
 }
