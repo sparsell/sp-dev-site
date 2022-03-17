@@ -2,10 +2,10 @@ import React from 'react'
 
 const Intro = () => {
     return (
-        <section id="intro" className="h-screen">
+        <section id="intro" className="top-0">
             <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
                 <div className="lg:flex-grow lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                    <h1 className="title-font sm:text-6xl text-5xl mb-10 font-medium text-red-50">SONJA PARSELL</h1>
+                    <h1 className="title-font text-5xl mb-15 pb-2 pt-4 font-fine text-red-50">SONJA PARSELL</h1>
 
                     <div>
                         <h3 className="title-font sm:text-3xl text-3xl mb-1 mt-5 font-small c underline underline-offset-4 text-blue-800">
@@ -26,7 +26,7 @@ const Intro = () => {
                         <h3 className="title-font sm:text-3xl text-3xl mb-1 mt-5 font-small text-blue-800 underline underline-offset-4"> 
                         human </h3>
                         
-                            <p className="text-blue-800">Happily married, mom to two kids, two dogs and two cats. I'm a <span className="text-red-500">volunteer Salesforce administrator</span> for the Leukimia and Lymphoma Society and in any spare time will rescue any piece of fabric that can be made into a <a class="text-blue-600 visited:text-purple-600" target="_blank" href="https://www.charliepops.com" class="text-red-500 visited:text-red-500 ..." >patchwork quilt.</a></p>
+                            <p className="text-blue-800">Happily married, mom to two kids, two dogs and two cats. I'm a <span className="text-red-500">volunteer Salesforce administrator</span> for the Leukimia and Lymphoma Society and in any spare time will rescue any piece of fabric that can be made into a <a class="text-blue-600 visited:text-purple-600" target="_blank" rel="noreferrer" href="https://www.charliepops.com text-red-500 visited:text-red-500 ..." >patchwork quilt.</a></p>
                     </div>
                 </div>
             </div>
