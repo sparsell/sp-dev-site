@@ -9,7 +9,7 @@ const Projects = () => {
 
       <section id="projects" className="top-0">
         <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow  lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <div className="lg:flex-grow  lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mt-8 mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-RED-50">
                W O R K
             </h1>
