@@ -5,7 +5,7 @@ const Intro = () => {
         <section id="intro">
             <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
                 <div className="lg:flex-grow  md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                    <h1 className="text-4xl mt-6 mb-8 pb-2 pt-4 text-red-50">SONJA PARSELL</h1>
+                    <h1 className="text-4xl mt-8 mb-4 pb-2 pt-4 text-red-50">SONJA PARSELL</h1>
 
                     <div>
                         <h3 className="title-font sm:text-2xl text-2xl mb-1 mt-5 font-small c underline underline-offset-4 text-blue-800">
@@ -16,7 +16,7 @@ const Intro = () => {
                     <div>
                         <h3 className="title-font sm:text-2xl text-2xl mb-1 mt-5 font-small text-blue-800 underline underline-offset-4"> 
                         bent on blockchain </h3>
-                            <p className="text-blue-800">I'm captivated by what blockchain technology could do for areas of our lives that can surely stand for more equity and transparency.  I want to be a part of designing and building techonolgy that works for everyone. <span className="text-red-500">I'm currently playing around with Daml and Solidity</span>.</p>
+                            <p className="text-blue-800">I'm captivated by what blockchain technology could do for areas of our lives that can surely stand for more equity and transparency.  I want to be a part of designing and building techonolgy that works for everyone. <span className="text-red-500">I'm currently building things with Solidity</span>.</p>
 
                         <h3 className="title-font sm:text-2xl text-2xl mb-1 mt-5 font-small text-blue-800 underline underline-offset-4"> 
                         career changer </h3>
