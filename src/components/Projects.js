@@ -14,13 +14,13 @@ const Projects = () => {
                W O R K
             </h1>
               <div>
-                <p className="text-blue-800 items-center">
-                I always strive to solve my own problems when it comes to building something to help me learn a new language or framework.</p>
+                <p className="text-blue-800 items-center mb-6 mt-6">
+                loreum loreum loreum loreumloreum loreumloreum loreumloreum loreumloreum loreumloreum loreumloreum loreumloreum loreum</p>
               </div>
         
-          <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+          <div className="flex flex-wrap sm:mx-auto sm:mb-2 -mx-2">
             {projects.map((project) => (
-              <div  className="p-2  w-full"key={project.id}>
+              <div  className="p-2 w-full"key={project.id}>
                 <div className="bg-red-100 rounded flex p-4 h-full items-center">
                   <span className="title-font font-medium text-white">
                     <p className="text-blue-800 font-bold tracking-widest underline underline-offset-4 text-center">{project.title}</p>
