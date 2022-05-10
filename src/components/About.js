@@ -13,10 +13,10 @@ const About = () => {
                             alt="Sonja Parsell"
                             src="../headshot.jpg"
                             />
-                        <h1 className="font-semibold text-lg tracking-widest mt-7">ME BEFORE CODE...</h1>
+                        <h1 className="text-lg tracking-wide mt-7">Me Before Code...</h1>
                             <p className="text-blue-800">After 15+ years at various Wall Street banks, I handed in my spreadsheets for the chance to stay at home with my two children. In my last role, I'd made a strategic move from Finance to Technology and after a very short time, I finally knew what I wanted to be when I grew up.</p>
                                 
-                        <h1 className="font-semibold text-lg tracking-widest mt-7">AND AFTER...</h1>
+                        <h1 className="text-lg tracking-wide mt-7">And After...</h1>
                             <p className="text-blue-800">Now I'm passionate about blockchain technology and web3, and finding ways to add value by combining my financial services expertise with my newly minted software engineering skills. </p>
                     </div>
                 </div>
