@@ -24,13 +24,16 @@ const Projects = () => {
                 <div className="bg-red-100 rounded flex p-4 h-full items-center">
                   <span className="title-font font-medium text-white">
                     <p className="text-blue-800 font-bold tracking-widest underline underline-offset-4 text-center">{project.title}</p>
-                    <p className="text-blue-800 p-2 m-1">{project.tagline}</p>
+                    <p className="text-red-500 p-2 m-1">{project.tagline}</p>
+                    <p className="text-blue-800 p-2 m-1">{project.image}</p>
                     <p className="text-blue-800 p-2 m-1">{project.description}</p>
-                    <p className="text-blue-800">{project.image}</p>
-                      <div className="flex flex-wrap">
+                      
+                      <div className="flex flex-wrap content-around">
                         <p className="text-blue-800 visited:text-red-400"><a target="_blank" rel="noreferrer" alt="link to project website" href={project.link}><button className="rounded bg-red-500 pr-2 pl-2 m-1 w-14 text-white items-center">Demo</button></a></p>      
 
                         <p className="text-blue-800 visited:text-red-400"><a target="_blank" rel="noreferrer" alt="Github repo link" href={project.github}><button className="rounded bg-red-500 pr-2 pl-2 m-1 w-14 text-white">Repo</button></a></p> 
+
+                        <p className="text-blue-800 visited:text-red-400"><a target="_blank" rel="noreferrer" alt="Github repo link" href={project.github}><button className="rounded bg-red-500 pr-2 pl-2 m-1 w-14 text-white">Site</button></a></p> 
                       </div>
                     )        
                   </span>
