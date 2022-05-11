@@ -9,10 +9,10 @@ const ProjectCard = () => {
             <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
             {projects.map((project) => (
               <div  className="p-2  w-full"key={project.id}>
-                <div className="bg-red-100 rounded flex p-4 h-full items-center">
+                <div className="bg-red-100 rounded flex p-4 items-center">
                   <span className="title-font font-medium text-white">
                     <p className="text-blue-800 font-semibold tracking-widest underline underline-offset-4 text-center">{project.title}</p>
-                    <p className="text-blue-800 p-2 m-1">{project.tagline}</p>
+                    <p className="text-blue-800 p-2 m-1 text-center">{project.tagline}</p>
                     <p className="text-blue-800 p-2 m-1">{project.description}</p>
                     <p className="text-blue-800">{project.image}</p>
                         <div className="flex flex-wrap">
